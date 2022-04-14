@@ -1,21 +1,16 @@
 #include "main.h"
 
-
 /**
-*print_character - print uppercase
-*
-* Return: Always 0.
-*/
-int main(void)
+ * _isupper - checks if number is uppercase
+ * @c: number to check
+ *
+ * Return: 1 on Sucess
+ * On error, 0 is returned and error is set appropriately
+ */
+int _isupper(int c)
 {
-    char c;
-
-    c = 'A';
-    for("%c: %d\n", c, _isupper	(c));
-    c = 'a';
-    for("%c: %d\n", c, _isupper	(c));
-    {
-            _putchar(c);																							}																									  _putchar('\n');
-
-    return (0);
+	if (c >= 'A' && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
