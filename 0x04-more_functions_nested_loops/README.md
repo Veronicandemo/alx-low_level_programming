@@ -1,1 +1,1 @@
-Isupper
+Isdigit
