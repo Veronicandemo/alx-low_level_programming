@@ -2,17 +2,17 @@
 #include <stdio.h>
 
 /**
- * _isdigit - checks if input is number 0-9
- * @c: input to check
+ * main - check the code
  *
- * Return: 1 on Success
- * On error, 0 is returned, and errno set appropriately
+ * Return: Always 0.
  */
-
-int _isdigit(int c)
+int main(void)
 {
-	if (c >= '0' && c <= '9')
-		return (1);
-	else
-		return (0);
+    char c;
+
+    c = '0';
+    printf("%c: %d\n", c, _isdigit(c));
+    c = 'a';
+    printf("%c: %d\n", c, _isdigit(c));
+    return (0);
 }
