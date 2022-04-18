@@ -1,1 +1,1 @@
-Isdigit
+Most numbers
