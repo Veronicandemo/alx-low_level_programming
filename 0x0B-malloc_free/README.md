@@ -1,1 +1,1 @@
-Diving more into C the C program
+Function that creates an array of chars, and initializes it with a specific char.
